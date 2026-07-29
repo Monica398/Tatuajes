@@ -24,7 +24,7 @@ export function EventCard({ event }) {
                     </p>
                 </div>
                 <button
-                    className="mt-4 w-full rounded-md bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
+                    className="mt-4 w-full rounded-md bg-[#F5EFE6] px-4 py-2 text-white transition-colors hover:bg-blue-700"
                 >
                     Ver detalles
                 </button>
