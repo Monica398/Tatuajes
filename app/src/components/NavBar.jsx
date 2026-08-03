@@ -1,8 +1,9 @@
 import { Search, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Link } from "react-router-dom";
 
-export function Navbar() {
+export function NavBar() {
     return (
         <header className="sticky top-0 z-50 border-b border-[#d8d1c7] bg-[#f4efe7]">
             <nav className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
@@ -41,12 +42,14 @@ export function Navbar() {
                         Artistas
                     </Button>
 
-                    <Button
-                        variant="ghost"
-                        className="rounded-none px-4 font-semibold text-[#222222] hover:bg-transparent hover:text-[#c8655b]"
-                    >
-                        Tattoos
-                    </Button>
+                    <Link to="/tattoos">
+                        <Button
+                            variant="ghost"
+                            className="rounded-none px-4 font-semibold text-[#222222] hover:bg-transparent hover:text-[#c8655b]"
+                        >
+                            Tattoos
+                        </Button>
+                    </Link>
 
                     <Button
                         variant="ghost"
@@ -59,7 +62,9 @@ export function Navbar() {
                         variant="ghost"
                         className="rounded-none px-4 font-semibold text-[#222222] hover:bg-transparent hover:text-[#c8655b]"
                     >
-                        Registrarse
+                        <Link to="/login">
+                            Registrarse
+                        </Link>
                     </Button>
                 </div>
 
@@ -78,6 +83,7 @@ export function Navbar() {
                         className="h-10 rounded-none bg-[#171717] px-4 text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#333333]"
                     >
                         Reservar cita
+                        {/*El plus es para que aparezcael + en reservar cita*/}
                         <Plus className="h-4 w-4" />
                     </Button>
                 </div>
