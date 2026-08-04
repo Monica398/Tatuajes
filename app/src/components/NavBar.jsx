@@ -1,4 +1,4 @@
-import { Search, Plus } from "lucide-react";
+/*import { Search, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ export function NavBar() {
         <header className="sticky top-0 z-50 border-b border-[#d8d1c7] bg-[#f4efe7]">
             <nav className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
 
-                {/* Logo */}
+                {/* Logo }
                 <div className="flex min-w-fit items-center gap-4">
                     <div className="text-4xl font-light text-[#c8655b]">
                         ✦
@@ -25,7 +25,7 @@ export function NavBar() {
                     </div>
                 </div>
 
-                {/* Menú */}
+                {/* Menú }
                 <div className="flex items-center gap-2">
                     <Button
                         variant="ghost"
@@ -68,7 +68,7 @@ export function NavBar() {
                     </Button>
                 </div>
 
-                {/* Buscador y botón */}
+                {/* Buscador y botón }
                 <div className="flex min-w-fit items-center gap-4">
                     <div className="relative">
                         <Input
@@ -83,7 +83,7 @@ export function NavBar() {
                         className="h-10 rounded-none bg-[#171717] px-4 text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#333333]"
                     >
                         Reservar cita
-                        {/*El plus es para que aparezcael + en reservar cita*/}
+                        {/*El plus es para que aparezcael + en reservar cita}
                         <Plus className="h-4 w-4" />
                     </Button>
                 </div>
@@ -91,4 +91,4 @@ export function NavBar() {
             </nav>
         </header>
     );
-}
+}*/
